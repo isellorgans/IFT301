@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<style>
+		.mySlides {display:none;}
+		</style>
+		
+		<link rel="stylesheet" href="http://www.public.asu.edu/~shughel/styling/homepage.css">
+		<!-- <script type= "text/javascript" src= "http://www.public.asu.edu/~shughel/styling/homepage.js"> </script> --> 
+		
+
+		<title>SYT Dota 2</title>
+		
+	</head>
+<!-- NOTE: form pages not included in Milestone 2, waiting for JS -->
+<body>
+  <h1 id="title">SYT Dota 2</h1>
+  <br />
+    <h1><img id="syt" src="http://www.public.asu.edu/~shughel/images/SYT.png"          alt= "SYT" cite= "'Sow Your Teeth' design by Glassteeth">
+    </h1>
+  <div class= "buttons">
+  <p class= "formlink">Sign In </p>
+  <p class= "formlink">Sign Up </p>
+  </div> <br />
+  
+  <div>
+      <!-- NOTE: My wireframe says that I'll have an image       slideshow, but an image slideshow requires JavaScript. Since we haven't gone over JS yet, I'm just plugging in the slideshow guide from W3 Schools so that you can get a better idea of what the page will contain / look like. My intent is not to plagiarize, so don't count the slideshow towards my grade -->
+    
+    <img class= "mySlides" src= "http://www.public.asu.edu/~shughel/images/TI6.jpg" alt= "ti6">
+    
+    <img class= "mySlides" src= "http://www.eslgaming.com/sites/default/files/styles/blog_big/public/20160619_Patrick-Strack_ESLOneFFM16_070A9808_1.jpg?itok=Dblzt7z-" alt= "ti6" cite= "eslgaming.com">
+    
+    <img class= "mySlides" src= "http://cdn0.dailydot.com/cache/e8/e6/e8e685f8a0b603229489e038d73db176.jpg" alt= "ti6" cite="cdn.dailydot.com">
+    
+    <img class= "mySlides" src= "https://i.ytimg.com/vi/sKWKzV6qW6I/maxresdefault.jpg" alt= "ti6" cite= "wiki.teamliquid.net">
+     <!-- add captions later -->
+    <hr />
+  </div> 
+  <script type = "text/javascript">
+			
+			<!-- Image Carousel -->
+			var slideIndex = 0;
+			carousel();
+
+			function carousel() {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none"; 
+				}
+				slideIndex++;
+				if (slideIndex > x.length) {slideIndex = 1} 
+				x[slideIndex-1].style.display = "block"; 
+				setTimeout(carousel, 3000); // Change image every 2 seconds
+			}
+  </script>
+  <p>
+  <h3> Teams: </h3>
+  <h4> Click the team photo to view their page </h4>
+    <br />
+  </p>
+
+  <table class="imgtable" cellspacing= "0">
+    <tr>
+        <td> <a href= "http://www.public.asu.edu/~shughel/TEAMSECRET.html" target="_blank"><img class= "imggrid" src=
+ "http://www.gosugamers.net/files/images/news/2016/august/%5EDAAD5784728D9D3C0A09894AF4304BB68743108E6502F52478%5Epimgpsh_fullsize_distr.jpg" alt="team secret" cite= "gosugamer.net"> </a> </td>
+        
+    
+        <td>
+   <div class= "float">
+    <a href= "http://www.public.asu.edu/~shughel/EG.html" target="_blank"> <img class= "imggrid" src=
+ "http://i.kinja-img.com/gawker-media/image/upload/t_original/1377924639529979306.jpg" alt="team secret" cite= "i.kinja.com"> </a> </td>
+          
+         <td>
+   <div class= "float">
+    <a href= "http://www.public.asu.edu/~shughel/MVPphoenix.html" target="_blank"> <img class= "imggrid" src=
+ "https://img.championat.com/i/article/32/64/1470843264_b_mvp-phoenix-m.jpg" alt="MVP" cite= "theScoreeSports"> </a> </td>
+    </tr>     
+</table>
+	<h3><a href="http://www.public.asu.edu/~shughel/Directory.html" target= "_blank">All teams by region</a>
+    <h3>More teams will be added to table once their page has been created!</h3>
+</body>
+</html>
