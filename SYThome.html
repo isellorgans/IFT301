@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html> 
 	<head>
-		<style>
-		.mySlides {display:none;}
-		</style>
-		
+
 		<link rel="stylesheet" href="http://www.public.asu.edu/~shughel/styling/SYThomestyle.css">
 		<!-- <script type= "text/javascript" src= "http://www.public.asu.edu/~shughel/styling/homepage.js"> </script> --> 
 		
@@ -14,17 +11,28 @@
 	</head>
 <!-- NOTE: form pages not included in Milestone 2, waiting for JS -->
 <body>
+ <div id="row-1">
+
   <h1 id="title">SYT Dota 2</h1>
+  
   <br />
-    <h1><img id="syt" src="http://www.public.asu.edu/~shughel/images/SYT.png"          alt= "SYT" cite= "'Sow Your Teeth' design by Glassteeth">
+    <h1><img id="syt" src="http://www.public.asu.edu/~shughel/images/SYT.png" alt= "SYT" cite= "'Sow Your Teeth' design by Glassteeth">
     </h1>
+</div> <!-- end row 1 -->
+
   <div class= "buttons">
   <p class= "formlink">Sign In </p>
   <p class= "formlink">Sign Up </p>
   </div> <br />
   
-  <div>
-      <!-- NOTE: My wireframe says that I'll have an image       slideshow, but an image slideshow requires JavaScript. Since we haven't gone over JS yet, I'm just plugging in the slideshow guide from W3 Schools so that you can get a better idea of what the page will contain / look like. My intent is not to plagiarize, so don't count the slideshow towards my grade -->
+  
+  
+  
+  <div class= "newspaper">
+  
+  
+  
+	<div id="slideshow">
     
     <img class= "mySlides" src= "http://www.public.asu.edu/~shughel/images/TI6.jpg" alt= "ti6">
     
@@ -34,8 +42,45 @@
     
     <img class= "mySlides" src= "https://i.ytimg.com/vi/sKWKzV6qW6I/maxresdefault.jpg" alt= "ti6" cite= "wiki.teamliquid.net">
      <!-- add captions later -->
-    <hr />
-  </div> 
+	 </div> <!-- end slideshow -->
+	 <h5>
+	 Welcome to SYT Dota 2! A website dedicated to the professional Dota 2 eSports scene.
+	 </h5> <p>
+	Want to learn about the professional teams before the next big tournament? You've come to the right place! Click on a team's photo to learn more about them.
+	 <br />
+	 <br /> 
+	 
+	 </p>
+	 
+	 <h5><br />What is Dota 2?</h5>
+	 <p>
+	 <br />
+	 
+	 Dota 2 is a free-to-play multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation. The game is the stand-alone sequel to Defense of the 
+	 Ancients (DotA), which was a community-created mod for Blizzard Entertainment's Warcraft III: Reign of Chaos and its expansion pack, The Frozen Throne. 
+	 <br />
+	 <br />
+	 <br />
+	 <br />
+	 <br />
+	 <br />
+	 <br />
+	 <br />
+	 
+	 <br />
+	 Dota 2 is played in matches 
+	 between two teams that consist of five players, with both teams occupying their own separate base on the map. Each of the ten players independently control a powerful character, 
+	 known as a "hero", that all feature unique abilities and different styles of play. During a match, a player and their team collects experience points and items for their heroes 
+	 in order to push through the opposing team's defenses. A team wins by being the first to destroy a large structure located in the opposing team's base, called the "Ancient".
+	 
+	 
+
+    </p>
+	<br />
+	</div> <!-- end newspaper -->
+	<hr />
+	
+  
   <script type = "text/javascript">
 			
 			<!-- Image Carousel -->
@@ -54,18 +99,18 @@
 				setTimeout(carousel, 3000); // Change image every 2 seconds
 			}
   </script>
-  <p>
-  <h3> Teams: </h3>
-  <h4> Click the team photo to view their page </h4>
+  <div id=" tbar">
+  <h3><br />Teams: </h3>
+  </div> <!-- end tbar -->
     <br />
-  </p>
+  
 
   <table class="imgtable" cellspacing= "0">
     <tr>
+	<!-- Row 1 -->
         <td> <a href= "http://www.public.asu.edu/~shughel/TEAMSECRET.html" target="_blank"><img class= "imggrid" src=
  "http://www.gosugamers.net/files/images/news/2016/august/%5EDAAD5784728D9D3C0A09894AF4304BB68743108E6502F52478%5Epimgpsh_fullsize_distr.jpg" alt="team secret" cite= "gosugamer.net"><div class="overlay">TEAM SECRET</div> </a> </td>
         
-    
         <td>
    <div class= "float">
     <a href= "http://www.public.asu.edu/~shughel/EG.html" target="_blank"> <img class= "imggrid" src=
@@ -75,18 +120,20 @@
    <div class= "float">
     <a href= "http://www.public.asu.edu/~shughel/MVPphoenix.html" target="_blank"> <img class= "imggrid" src=
  "https://img.championat.com/i/article/32/64/1470843264_b_mvp-phoenix-m.jpg" alt="MVP" cite= "theScoreeSports"><div class="overlay">MVP PHOENIX</div> </a> </td>
-    </tr>     
-	<!-- Second row use 650x350 -->
+    </tr>  
+	
 	    <tr>
+	<!-- Row 2 -->
         <td> <a href= "http://www.public.asu.edu/~shughel/fnatic.html" target="_blank"><img class= "imggrid" src=
  "http://www.gosugamers.net/files/images/news/2016/february/Fnatic.jpg" alt="fnatic" cite= "gosugamers.net"><div class="overlay">FNATIC</div> </a> </td>
-        
     
+	
         <td>
    <div class= "float">
     <a href= "http://www.public.asu.edu/~shughel/teamliquid.html" target="_blank"> <img class= "imggrid" src=
  "http://www.gosugamers.net/files/images/news/2016/april/860%20liquid%20manila.jpg" alt="Team Liquid" cite= "gosugamers.net"><div class="overlay">LIQUID</div> </a> </td>
-          
+   </div>      
+		  
          <td>
    <div class= "float">
     <a href= "http://www.public.asu.edu/~shughel/digitalchaos.html" target="_blank"> <img class= "imggrid" src=
@@ -94,6 +141,8 @@
     </div>
     </tr>  
 	
+	<tr>
+	<!-- Row 3 -->
 		<td>
    <div class= "float">
     <a href= "http://www.public.asu.edu/~shughel/aliance.html" target="_blank"> <img class= "imggrid" src=
@@ -106,16 +155,37 @@
  "http://wiki.teamliquid.net/commons/images/thumb/c/cd/Virtus_Pro_at_DreamHack_Valencia_2015.jpg/450px-Virtus_Pro_at_DreamHack_Valencia_2015.jpg" alt="DC" cite= "gosugamers.net"><div class="overlay">VIRTUS PRO</div> </a> </td>
     </div>
 	
-	
-	
-	
-	
-	
+			<td>
+   <div class= "float">
+    <a href= "http://www.public.asu.edu/~shughel/Vega.html" target="_blank"> <img class= "imggrid" src=
+ "http://www.gosugamers.net/files/images/features/2015/november/vega%20in.jpg" alt="DC" cite= "gosugamers.net"><div class="overlay">VEGA SQUADRON</div> </a> </td>
+   </div>
     </tr>  
 	
+	<tr>
+	<!-- Row 4 -->
+		<td>
+   <div class= "float">
+    <a href= "http://www.public.asu.edu/~shughel/Newbee.html" target="_blank"> <img class= "imggrid" src=
+ "http://www.gosugamers.net/files/images/news/2016/may/newbeeSpring-1.jpg" alt="DC" cite= "gosugamers.net"><div class="overlay">NEWBEE</div> </a> </td>
+    </div>
+	
+		<td>
+   <div class= "float">
+    <a href= "http://www.public.asu.edu/~shughel/Wings.html" target="_blank"> <img class= "imggrid" src=
+ "http://www.gosugamers.net/files/images/news/2016/april/650%20wings.jpg" alt="DC" cite= "gosugamers.net"><div class="overlay">WINGS GAMING</div> </a> </td>
+    </div>
+	
+			<td>
+   <div class= "float">
+    <a href= "http://www.public.asu.edu/~shughel/ehome.html" target="_blank"> <img class= "imggrid" src=
+ "http://www.gosugamers.net/files/images/news/2015/november/EHOME%20650350.jpg" alt="DC" cite= "gosugamers.net"><div class="overlay">EHOME</div> </a> </td>
+   </div>
+    </tr>
 	
 </table>
-	<h3><a href="http://www.public.asu.edu/~shughel/Directory.html" target= "_blank">All teams by region</a>
-    <h3>More teams will be added to table once their page has been created!</h3>
+
+	<h3><a id="directorylink" href="http://www.public.asu.edu/~shughel/Directory.html" target= "_blank">All teams by region</a>
+    
 </body>
 </html>
