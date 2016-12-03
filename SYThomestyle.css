@@ -1,0 +1,182 @@
+
+		.mySlides {display:none;}
+		
+		@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+.mySlides {
+display:none;
+}
+#row-1 {
+  border-style: outset;
+  width: 100%;
+  height: 8%;
+  position: absolute;
+  background-image: url("http://www.public.asu.edu/~shughel/banner.png");
+}
+
+body {
+  background-color: #984B43;	
+}
+#title{
+  border-style: inset;
+  box-sizing: content-box;
+  width: 263px;
+  height: 36px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold; 
+  letter-spacing: -1px;
+  background-color: #233237;
+  text-align: center;
+  color: #EAC67A;
+  position: relative;
+  z-index: 2;
+  margin-left: 25px;
+  
+}
+#syt {
+  height: 200px;
+  width: 14%;
+  max-height:450px;
+  display: block;
+  margin-top: -40px;
+  margin-left: 25px;
+  box-sizing: content-box;
+  border-style: outset;
+  background-color: #EAC67A;
+  position: relative;
+  z-index: 2;
+  
+ } 
+.formlink {
+  border-style: outset;
+  box-sizing: content-box;
+  width: 100px;
+  height: 20px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold; 
+  letter-spacing: -1px;
+  background-color: #F7CE3E;
+  text-align: center;
+  color: #233237;
+  float: right;
+}
+.buttons {
+   
+   position: relative;
+   z-index: 2;
+}
+#slideshow {
+  border-style: inset;
+  box-sizing: content-box;
+  background-color: #233237;
+  width: 100%;
+  height: 503px;
+  position: relative;
+  z-index: -1;
+  margin-top: 20px;
+  
+  -webkit-column-span: all; /* Chrome, Safari, Opera */
+    column-span: all;
+}
+h3 {
+  border-style: inset;
+  box-sizing: content-box;
+  width: 100%;
+  height: 100px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold; 
+  font-size: 30px;
+  letter-spacing: -1px;
+  background-color: #233237;
+  text-align: left;
+  color: #EAC67A;
+  margin-left: auto;
+  margin-right: auto;
+}
+#directorylink {
+  text-decoration: none;
+  text-position: center;
+}
+h4 {
+  margin-left: auto;
+  margin-right: auto;
+}
+.mySlides {
+  height: 500px;
+  width: 65%;
+  display: block;
+  margin-left: 345px;
+  margin-right: auto;
+  border-style: inset;
+  
+}
+.imgtable {
+  border: 0px solid transparent;
+  background-color: #233237;
+  border-collapse: collapse;
+  padding: 0px;
+  
+}
+figure {
+  width: 550px;
+  
+}
+.imggrid {
+  width: 100%;
+  height: 300px;
+  
+}
+
+a:hover img {
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out
+   -webkit-transform: scale(1.3);
+	transform: scale(1.09);
+  opacity: .3;
+  z-index: -1;
+}
+
+td { 
+  
+  border-collapse: collapse; 
+  border: 0px solid transparent;
+}
+a .overlay {
+position: relative;
+bottom:30px;
+left:0px;
+visibility:hidden;
+ font-size: 1px;
+}
+a:hover .overlay{
+  visibility:visible;
+  font-size: 40px;
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out
+  z-index: 1;
+  color: #EAC678;
+  text-align: center;
+  margin-top: -40px;
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+.newspaper {
+      -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    -webkit-column-rule: 1px solid lightblue; /* Chrome, Safari, Opera */
+    -moz-column-rule: 1px solid lightblue; /* Firefox */
+    column-rule: 1px solid lightblue;
+	width: 100%;
+	font-family: 'Helvetica Neue', sans-serif;
+ font-weight: bold;
+}
+h5 {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+	color: #EAC67A;
+	font-size: 20px;
+}
